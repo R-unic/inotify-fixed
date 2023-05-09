@@ -1,11 +1,11 @@
-require "./inotify/version"
+require "./inotify-fixed/version"
 
 {% skip_file unless flag?(:linux) %}
 
-require "./inotify/lib_inotify"
-require "./inotify/settings"
-require "./inotify/event"
-require "./inotify/watcher"
+require "./inotify-fixed/lib_inotify"
+require "./inotify-fixed/settings"
+require "./inotify-fixed/event"
+require "./inotify-fixed/watcher"
 
 module Inotify
   # Same as `Inotify::Watcher.new`.
