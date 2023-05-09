@@ -1,0 +1,12 @@
+name: inotify-fixed
+version: 1.0.1
+description: |
+  Inotify bindings for Crystal language, fixed
+
+authors:
+  - Michael Petö <michael@petoe.me>
+  - R-unic <roleyspersonal@gmail.com>
+
+crystal: 1.8.1
+
+license: MIT
